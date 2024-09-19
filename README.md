@@ -12,7 +12,9 @@ Important Notes and Considerations:
 
 ## Api Key Setup
 
-To set API Keys on your machine, please run the command below with your API Key in between the quotes with the {yourkey} placeholder:
+To get an API Key, please visit [Open Weather](https://home.openweathermap.org) and create an account.
+
+Once you have an API key, please run the command below with your key in between the quotes with the {yourkey} placeholder:
 
 ```bash
 echo "export GEO_LOC_UTIL_KEY='{yourkey}'" >> ~/.zshrc
@@ -22,7 +24,7 @@ Once Api keys are set, proceed to the next section.
 
 ## Installation
 
-To begin installation, clone the project and cd into the directory with the following commands (Be sure to replace the place holder with your username):
+To begin installation, clone the project and cd into the directory with the following commands (Be sure to replace the {yourusername} placeholder with your username):
 
 ```bash
 https://github.com/{yourusername}/GeoLocUtility.git
