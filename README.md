@@ -7,7 +7,7 @@ The purpose of this tool is to take in either a zip code or city and state combi
 Important Notes and Considerations:
 
 - This README File contains instructions on how to run the ``geoloc-util`` command line utility for Mac and Linux devices. Additional steps may be required when trying to run this on a Windows machine.
-- When passing variables to the ``geolo-util`` command line utility, make sure that location variables are enclosed in double straight quotes, not curly quotes (Also Known As Smart Quotes).
+- When passing variables to the ``geoloc-util`` command line utility, make sure that location variables are enclosed in double straight quotes, not curly quotes (Also Known As Smart Quotes).
 - Passing variables without using quotes may provide unsatisfactory results. It is important to sure the Zip Code and Location variables are surrounded by double quotes
 
 ## Api Key Setup
