@@ -1,0 +1,3 @@
+[console_scripts]
+geoloc-util = geoloc_handler:main
+
