@@ -27,7 +27,7 @@ Once Api keys are set, proceed to the next section.
 To begin installation, clone the project and cd into the directory with the following commands (Be sure to replace the {yourusername} placeholder with your username):
 
 ```bash
-https://github.com/{yourusername}/GeoLocUtility.git
+git clone https://github.com/{yourusername}/GeoLocUtility.git
 cd GeoLocUtility
 ```
 
