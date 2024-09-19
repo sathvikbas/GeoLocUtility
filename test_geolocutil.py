@@ -14,11 +14,13 @@ input_commands = [
     ('geoloc-util "94582" "19102"'),
     ('geoloc-util "Chicago, IL" "Madison, WI"'),
     ('geoloc-util "San Ramon, CA" "Philadelpasdfasdhia, PA"'),
-    ('geoloc-util --location "San Ramon, CA" "12345" "CHICAGO, IL" "193284932458" "Pietown, CO" "PhIlaDelpHia, PA" "90210"'),
-    ('geoloc-util --location'),
+    ('geoloc-util --locations "San Ramon, CA" "12345" "CHICAGO, IL" "193284932458" "Pietown, CO" "PhIlaDelpHia, PA" "90210"'),
+    ('geoloc-util --locations'),
     ('geoloc-util --loca'),
     ('geoloc-util --loca --randomflag'),
     ('geoloc-util'),
+    ('geoloc-util "Madison, WI" "12345" "Chicago, IL" "10001"'),
+    ('geoloc-util --locations "Madison, WI" "12345"'),
 ]
 
 

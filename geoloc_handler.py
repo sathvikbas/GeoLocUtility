@@ -29,6 +29,7 @@ def get_details(location, zip_code):
             },
         )
 
+    # For setting api data
     data = {}
     if response.status_code == 200:
         try:
@@ -55,7 +56,7 @@ def main():
 
     # Get rid of location tags
     if len(args) >= 1:
-        if args[0] == "--location":
+        if args[0] == "--locations":
             args.pop(0)
     
     try:
